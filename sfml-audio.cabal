@@ -51,6 +51,8 @@ Library
   if os(linux)
     extra-libraries:
         openal, pthread
+    include-dirs:
+        /usr/include/AL
   if os(mingw32)
     extra-libraries:
         openal32
