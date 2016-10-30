@@ -34,8 +34,8 @@ extra-source-files:
     dependencies/sfml2/bindings/c/src/SFML/*.h
 
 source-repository head
-  type:     darcs
-  location: http://patch-tag.com/r/shahn/sfml-audio
+  type:     git
+  location: https://github.com/nikki-and-the-robots/sfml-audio
 
 Library
   Exposed-modules:     Sound.SFML, Sound.SFML.LowLevel
